@@ -54,7 +54,7 @@ const memoryGame = {
 
         this.tilePairs++;
         if (this.tilePairs >= this.tileCount / 2) {
-            alert('gameOver!');
+            alert('Koniec Gry!!!');
         }
     },
 

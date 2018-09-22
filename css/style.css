@@ -3,6 +3,7 @@ body {
 
 
 
+
 }
 
 
@@ -27,6 +28,9 @@ p a{
     letter-spacing: 2px;
     color: #5DEB7E;
     font-size: 22px;
+    position: absolute;
+    top: 80px;
+    left: 550px;
 }
 
 a:hover {
@@ -40,7 +44,7 @@ a:hover {
 
 
 .game-board {
-    margin:30px auto;
+    margin:40px auto;
     position: relative;
     overflow: hidden;
     width: 560px;
@@ -54,18 +58,28 @@ a:hover {
     cursor: pointer;
     width: 100px;
     height: 100px;
-    background: green url(../img/front2.png) center center no-repeat;
+    background: white url(../img/front2.png) center center no-repeat;
+    transition: all .3s ease-in-out;
 }
 
 .game-tile:hover {
+    filter: brightness(50%);
 
 }
 
 .game-score {
     text-align:center;
-    color: red;
-    font-size: 20px;
+    color: #E9B64A;;
+    font-size: 32px;
     font-weight: 700;
+    position: absolute;
+    bottom: -37px;
+    left: 540px;
+    background-color: black;
+    width: 275px;
+    height: 37px;
+
+
 }
 
 .game-start {
